@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amar Gelila</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container nav-container">
+        <div class="logo">AG</div>
+        <ul class="nav-menu">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Amar Gelila</h1>
+        <p>Frontend Web Developer</p>
+        <a href="#projects" class="btn btn-secondary">View My Work</a>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-item">
+            <div class="skill-icon skill-html">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon skill-css">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS</h3>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon skill-bootstrap">
+              <i class="fab fa-bootstrap"></i>
+            </div>
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon skill-bootstrap">
+              <i class="fa-regular fa-font-awesome"></i>
+            </div>
+            <h3>Tailwind</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon skill-js">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon skill-react">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon skill-bootstrap">
+              <i class="fa-regular fa-font-awesome"></i>
+            </div>
+            <h3>Zustand</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+
+        <!-- Filter Buttons -->
+        <div class="filter-container">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="html">HTML</button>
+          <button class="filter-btn" data-filter="css">CSS</button>
+          <button class="filter-btn" data-filter="bootstrap">Bootstrap</button>
+          <button class="filter-btn" data-filter="tailwind">Tailwind</button>
+          <button class="filter-btn" data-filter="javascript">
+            JavaScript
+          </button>
+          <button class="filter-btn" data-filter="react">React</button>
+          <button class="filter-btn" data-filter="zustand">Zustand</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="social-links">
+          <a href="https://github.com/AmarGelila" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:amaressamgelila.dev@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p>&copy; 2025 Amar Gelila.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
