@@ -31,7 +31,6 @@ const projects = [
     previewImage: "images/weather.png",
     skills: ["html", "css", "javascript"],
   },
-
   {
     id: 6,
     name: "Tic Tac Toe Game",
