@@ -32,7 +32,7 @@ const projects = [
     skills: ["html", "css", "javascript"],
   },
   {
-    id: 6,
+    id: 5,
     name: "Tic Tac Toe Game",
     liveLink: "https://tic-tac-toe-amargelila.vercel.app/",
     githubLink: "https://github.com/AmarGelila/tic-tac-toe-web-game",
@@ -40,7 +40,7 @@ const projects = [
     skills: ["html", "css", "react"],
   },
   {
-    id: 7,
+    id: 6,
     name: "Snkr Ecommerce Website",
     liveLink: "https://snkr-indol.vercel.app/",
     githubLink: "https://github.com/AmarGelila/snkr",
@@ -48,16 +48,15 @@ const projects = [
     skills: ["html", "css", "react", "tailwind", "zustand"],
   },
   {
-    id: 8,
+    id: 7,
     name: "Bondi Template",
     liveLink: "https://amargelila.github.io/-Bondi-bootstrap-template/",
     githubLink: "https://github.com/AmarGelila/-Bondi-bootstrap-template",
     previewImage: "images/bondi.png",
     skills: ["html", "css", "bootstrap"],
   },
-  ,
   {
-    id: 9,
+    id: 8,
     name: "Estate GreatStack",
     liveLink: "https://estate-wheat.vercel.app/",
     githubLink: "https://github.com/AmarGelila/Estate-",
