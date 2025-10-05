@@ -31,14 +31,7 @@ const projects = [
     previewImage: "images/weather.png",
     skills: ["html", "css", "javascript"],
   },
-  {
-    id: 5,
-    name: "Memory Blocks Game",
-    liveLink: "https://amargelila.github.io/memory-blocks-game/",
-    githubLink: "https://github.com/AmarGelila/memory-blocks-game",
-    previewImage: "images/memory-blocks.png",
-    skills: ["html", "css", "javascript"],
-  },
+
   {
     id: 6,
     name: "Tic Tac Toe Game",
@@ -62,6 +55,15 @@ const projects = [
     githubLink: "https://github.com/AmarGelila/-Bondi-bootstrap-template",
     previewImage: "images/bondi.png",
     skills: ["html", "css", "bootstrap"],
+  },
+  ,
+  {
+    id: 9,
+    name: "Estate GreatStack",
+    liveLink: "https://estate-wheat.vercel.app/",
+    githubLink: "https://github.com/AmarGelila/Estate-",
+    previewImage: "images/estate.png",
+    skills: ["tailwind", "react", "zustand", "css", "html"],
   },
 ];
 
