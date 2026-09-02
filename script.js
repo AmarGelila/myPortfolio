@@ -5,7 +5,14 @@ const projects = [
 		liveLink: "https://ge-blog.vercel.app/",
 		githubLink: "https://github.com/AmarGelila/bloge",
 		previewImage: "images/ge-blog.png",
-		skills: ["express", "react", "postgres", "prisma", "typescript"],
+		skills: [
+			"express",
+			"nodejs",
+			"react",
+			"postgres",
+			"prisma",
+			"typescript",
+		],
 	},
 	// {
 	// 	id: 11,
